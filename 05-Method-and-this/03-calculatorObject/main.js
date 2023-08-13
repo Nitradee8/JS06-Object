@@ -3,11 +3,10 @@
 // - sum() ให้ return ค่าผลบวกของเลขทั้งสอง
 // - mul() ให้ return ค่าผลคูณของเลขทั้งสอง
 
-
 let calculator = {
   read() {
-    this.x = +prompt('Enter num1';)
-    this.y = +prompt('Enter num2';)
+    this.x = +prompt('Enter num1');
+    this.y = +prompt('Enter num2');
     },
     sum() {
       return this.x + this.y;
@@ -15,10 +14,9 @@ let calculator = {
     mul() {
       return this.x * this.y;
     },
-  };
+  }
 
-log(calculator);
-
+console.log(calculator);
 calculator.read();
 alert(calculator.sum());
 alert(calculator.mul());
