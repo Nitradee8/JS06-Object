@@ -4,6 +4,16 @@
 // - Update property name ให้มีค่าเป็น Matt
 // - ลบ property name
 
+const user = {};
+    user.name = 'John';
+    user.surname = 'Doe';
+    user.name = 'Matt';
+    
+console.log('Before deletion:', user);
+delete user.name;
+console.log('After deletion:', user);
+
+
 
 
 
