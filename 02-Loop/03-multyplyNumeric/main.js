@@ -44,7 +44,12 @@ console.log(menu);
 
 let menuObj ={
     width: 200,
-}
+};
 
-menuObj.width = menuObj.width
+menuObj.width = menuObj.width * 2;
+menuObj['width'] = menuObj['width'] * 2;
+
+// ในแต่ละรอบของ Loop for..in
+let key = 'width';
+menuObj[key] = menuObj[key] * 2;
 
