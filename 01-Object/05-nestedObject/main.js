@@ -18,8 +18,10 @@ const product1 = {
   }
 };
 
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
+console.log('Province of product1:', product1.distributor.address.province);
+const product2 = {};
+  if (product2.distributor && product2.distributor.address && product2.distributor.address.province) {
+      console.log('Province of product2:', product2.distributor.address.province);
+      } else {
+        console.log('Province of product2: Not available');
+      }

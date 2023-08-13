@@ -18,6 +18,4 @@ const product1 = {
     }
   }
 };
-
-
 ```
